@@ -40,7 +40,7 @@ Building time series models can represent a lot of work for the modeler and so w
    
 **4.2 Estimation:**
  * Estimate the <code>**AR**</code> and <code>**MA**</code> coefficients of the data by fitting the Model using <code>**.fit() method**</code>.
- * At this stage we might fit many models and use the AIC and BIC to narrow down to more promising candidates.
+ * At this stage we might fit many models and use the AIC and BIC to narrow down to more promising candidates: The output of our code suggests that SARIMAX(2, 1, 1)x(1, 1, 1, 12) yields the lowest AIC value of 1022.26 (This confirmed what we predicted from the ACF and PACF. We should therefore consider this to be optimal option out of all the models we have considered.
  ![grid_search](https://user-images.githubusercontent.com/67468718/110271204-614c6180-7f7c-11eb-9c34-0809b93e1564.JPG)
  
 **4.3 Model Diagnostics:** 
