@@ -45,6 +45,9 @@ Building time series models can represent a lot of work for the modeler and so w
  
 **4.3 Model Diagnostics:** 
  * Evaluate the quality of the fitting Model by using test statistics <code>**.summary() method**</code>:
+   * Some of these plots also have accompanying test statistics in results.summary() tables. Prob(Q) is the p-value associated with the null hypothesis that the residuals have no correlation structure. Prob(JB) is the p-value associated with the null hypothesis that the residuals are Guassian normally distributed. If either p-value is less than 0.05 we reject that hypothesis.
+     * **Prob(Q):** p-value for null hypothesis that residuals are uncorrelated. Reject the null hypothesis and the residuals are correlated.
+     * **Prob(JB):** p-value for null hypothesis that residuals are normally distributed. for our Model Prob(JB) is Zero , which means you should reject the null hypothesis that the residuals are normally distributed (This time the JB value was thrown off by the one outlying point in the time series).
  ![summary](https://user-images.githubusercontent.com/67468718/110271209-61e4f800-7f7c-11eb-8cdd-95e8d6dca6dc.JPG)
  * diagnostic plots <code>**.plot_diagnostics() method**</code> to make sure the residuals are well behaved:
  ![plot](https://user-images.githubusercontent.com/67468718/110271207-61e4f800-7f7c-11eb-94ca-cad40a304d71.JPG)
