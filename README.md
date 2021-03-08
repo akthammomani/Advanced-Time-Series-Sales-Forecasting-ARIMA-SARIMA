@@ -10,7 +10,7 @@ The US federal government - the Health and Environment department are investigat
 
 So, in order to help them in the investigating, I will be using the 1949-1960 data to predict whether the manufacturer's cigarette sales actually increased, decreased, or stayed the same. I will be using the latest machine learning modelling techniques more specifically ARIMA and SARIMA models to make a probable reconstruction of the sales record of the manufacturer - predicting the future, from the perspective of the past - to contribute to a full report on US public health in relation to major cigarette companies. 
 
-The results of our analysis will be used as part of a major report relating public health and local economics, and will be combined with other studies executed by your colleagues to provide important government advice.  
+The results of our analysis will be used as part of a major report relating public health and local economics, and will be combined with other studies executed by other colleagues to provide important government advice.  
 
 ## 2. Time Series Defintion
 
