@@ -44,6 +44,8 @@ Building time series models can represent a lot of work for the modeler and so w
  ![grid_search](https://user-images.githubusercontent.com/67468718/110271204-614c6180-7f7c-11eb-9c34-0809b93e1564.JPG)
  
 **4.3 Model Diagnostics:** 
- * Evaluate the quality of the fitting Model by using test statistics <code>**.summary() method**</code> and diagnostic plots <code>**.plot_diagnostics() method**</code> to make sure the residuals are well behaved!
- 
+ * Evaluate the quality of the fitting Model by using test statistics <code>**.summary() method**</code>:
+ ![summary](https://user-images.githubusercontent.com/67468718/110271209-61e4f800-7f7c-11eb-8cdd-95e8d6dca6dc.JPG)
+ * diagnostic plots <code>**.plot_diagnostics() method**</code> to make sure the residuals are well behaved:
+ ![plot](https://user-images.githubusercontent.com/67468718/110271207-61e4f800-7f7c-11eb-94ca-cad40a304d71.JPG)
 
