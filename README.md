@@ -67,8 +67,8 @@ Remarkably, our ARIMA/SARIMA models made predictions using just one variable. We
 
 ## 6. Conclusion:
 
-| <code>**Metrics**</code>| <code>**Value*</code>|
-| :-------:| :-----:|
+| <code>**Metrics**</code>| <code>**Value**</code>|
+| :-------| :-----:|
 | <code>**Mean Sales (Next 24Months)**</code>| 1000515|
 | <code>**Lower Sales**</code>| 1000461|
 | <code>**Upper Sale**</code>| 1000569|
