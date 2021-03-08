@@ -1,5 +1,7 @@
 # Project: Advanced Time Series Forecasting of Cowboy Cigarettes Sales using ARIMA and SARIMA Models
 
+![Time_series](https://user-images.githubusercontent.com/67468718/110270113-fd289e00-7f79-11eb-80aa-13e656231036.JPG)
+
 ## 1. Introduction
 
 You're working in the US federal government as a data scientist in the Health and Environment department. You've been tasked with determining whether sales for the oldest and most powerful producers of cigarettes in the country are increasing or declining. 
