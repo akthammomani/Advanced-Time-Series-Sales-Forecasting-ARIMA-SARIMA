@@ -29,7 +29,7 @@ Building time series models can represent a lot of work for the modeler and so w
   * Is a Time Series stationary?What differencing will make it stationary?What transforms will make it stationary?
   ![ts_stattionary](https://user-images.githubusercontent.com/67468718/110271196-60b3cb00-7f7c-11eb-87e8-14a6e184564f.JPG)
   * What values of <code>**p**</code> and <code>**q**</code> are most promising?
-  
+  ![parameters](https://user-images.githubusercontent.com/67468718/110271205-61e4f800-7f7c-11eb-996d-3e518be84bda.JPG)
  
 **4.2 Estimation:**
  * Estimate the <code>**AR**</code> and <code>**MA**</code> coefficients of the data by fitting the Model using <code>**.fit() method**</code>.
