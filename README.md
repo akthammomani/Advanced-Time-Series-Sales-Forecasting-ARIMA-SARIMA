@@ -16,7 +16,7 @@ The results of our analysis will be used as part of a major report relating publ
 
 Time series data is just any data displaying how a single variable changes over time. It comes as a collection of metrics typically taken at regular intervals. Common examples of time series data include weekly sales data and daily stock prices. You can also easily acquire time series data from [Google Trends](https://trends.google.com/trends/?geo=US), which shows you how popular certain search terms are, measured in number of Google searches. 
 
-## 3. Visualizing predictor variable <code>**y**</code> using **matplotlib** and **Tableau**:
+## 3. Visualizing predictor variable <code>**y**</code> using **Tableau**:
 
 
 ![cig_sales](https://user-images.githubusercontent.com/67468718/110266605-0104f200-7f73-11eb-9503-4f649935cdef.JPG)
