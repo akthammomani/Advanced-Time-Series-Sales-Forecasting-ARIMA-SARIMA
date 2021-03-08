@@ -65,3 +65,17 @@ Remarkably, our ARIMA/SARIMA models made predictions using just one variable. We
 
 ![forecasting](https://user-images.githubusercontent.com/67468718/110271202-614c6180-7f7c-11eb-8f8b-d422df729938.JPG)
 
+## 6. Conclusion:
+
+Finaly, let's try answer the main question: whether sales for the oldest and most powerful producers of cigarettes in the country are increasing or declining or staying the same:
+
+So from our SARIMA Model we estimate that Cowboy Cigarettes sales will keep increasing by roughly 420 from 1000500 to 1000919 from January 1961 to 1962.
+
+Any increase in tobacco sales is a red flag since **Smoking is the leading cause of preventable death. Worldwide, tobacco use causes more than 7 million deaths per year**
+
+For that reason, **On June 22, 2009, President Barack Obama** signed into law the Family Smoking Prevention and Tobacco Control Act, giving the U.S. Food and Drug Administration (FDA) comprehensive authority to regulate the manufacturing, marketing, and sale of tobacco products. The new law represents the most sweeping action taken to date to reduce what remains the leading preventable cause of death in the United States.
+
+Before enactment of the new law, tobacco products were largely exempt from regulation under the nation’s federal health and safety laws, including the Food, Drug, and Cosmetic Act. The FDA has regulated food, drugs and cosmetics for many decades, but not tobacco products, except in those rare circumstances when manufacturers made explicit health claims.
+
+
+
