@@ -15,5 +15,5 @@ Time series data is just any data displaying how a single variable changes over 
 ## 3. Visualizing predictor variable <code>**y**</code> using **matplotlib** and **Tableau**:
 
 
-![cig_sales](https://user-images.githubusercontent.com/67468718/109412776-cbeb1500-795e-11eb-9c40-789b9cc6a37e.JPG)
+![cig_sales](https://user-images.githubusercontent.com/67468718/110266605-0104f200-7f73-11eb-9503-4f649935cdef.JPG)
 
