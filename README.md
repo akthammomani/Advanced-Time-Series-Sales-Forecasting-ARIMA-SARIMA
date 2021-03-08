@@ -26,9 +26,8 @@ Time series data is just any data displaying how a single variable changes over 
 Building time series models can represent a lot of work for the modeler and so we want to maximize our ability to carry out these projects fast, efficiently and rigorously. This is where the Box-Jenkins method comes in. The Box-Jenkins method is a kind of checklist for you to go from raw data to a model ready for production. The three main steps that stand between you and a production-ready model are identification, estimation and model diagnostics:
 
 **4.1 Identification:**
-  * Is a Time Series stationary?
-  * What differencing will make it stationary?
-  * What transforms will make it stationary?
+  * Is a Time Series stationary?What differencing will make it stationary?What transforms will make it stationary?
+  ![ts_stattionary](https://user-images.githubusercontent.com/67468718/110271196-60b3cb00-7f7c-11eb-87e8-14a6e184564f.JPG)
   * What values of <code>**p**</code> and <code>**q**</code> are most promising?
   
  
