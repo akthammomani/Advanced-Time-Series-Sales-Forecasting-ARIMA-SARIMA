@@ -50,5 +50,11 @@ Building time series models can represent a lot of work for the modeler and so w
      * **Prob(JB):** p-value for null hypothesis that residuals are normally distributed. for our Model Prob(JB) is Zero , which means you should reject the null hypothesis that the residuals are normally distributed (This time the JB value was thrown off by the one outlying point in the time series).
  ![summary](https://user-images.githubusercontent.com/67468718/110271209-61e4f800-7f7c-11eb-8cdd-95e8d6dca6dc.JPG)
  * diagnostic plots <code>**.plot_diagnostics() method**</code> to make sure the residuals are well behaved:
+   * From the normal Q-Q plot, we can see that we almost have a straight line, which suggest no systematic departure from normality. Also, the correlogram on the bottom right suggests that there is no autocorrelation in the residuals, and so they are effectively white noise.
+   * **For an ideal model the residuals should be uncorrelated white Gaussian noise centered on zero. The rest of our diagnostics will help us to see if this is true:**
+     * **Residuals plot:** looks like our model is working correctly because there's no Obvious structure in the residuals.
+     * **Histogram plus estimated density:** The histogram shows us the measured distribution; the orange line shows a smoothed version of this histogram; and the green line, shows a normal distribution. for our model looks fine ... these two lines are almost the same.
+     * **Normal Q-Q:** Most of the data points should lie on the straight line (Residuals are normally distributed because most the points lie along the red line, except perhaps some values at either end).
+     * **Correlogram (ACF):** 95% of correlations for lag greater than one should not be significant.
  ![plot](https://user-images.githubusercontent.com/67468718/110271207-61e4f800-7f7c-11eb-94ca-cad40a304d71.JPG)
 
