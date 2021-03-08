@@ -58,3 +58,9 @@ Building time series models can represent a lot of work for the modeler and so w
      * **Correlogram (ACF):** 95% of correlations for lag greater than one should not be significant.
  ![plot](https://user-images.githubusercontent.com/67468718/110271207-61e4f800-7f7c-11eb-94ca-cad40a304d71.JPG)
 
+## 5. Application - Forecastig: Our models (ARIMA & SARIMA) managed to capture the center of a line and the seasonality that's increasing at a remarkable rate. Cowboy Cigarettes sell more cigarettes in the summer, perhaps due to the good weather, disposable income and time off that people enjoy, and the least in the winter, when people might be spending less and enjoying less free time outdoors. 
+
+Remarkably, our ARIMA/SARIMA models made predictions using just one variable. We can only speculate, however, on the causes of the behavior predicted by our models.
+
+![forecasting](https://user-images.githubusercontent.com/67468718/110271202-614c6180-7f7c-11eb-8f8b-d422df729938.JPG)
+
