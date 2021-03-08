@@ -67,6 +67,13 @@ Remarkably, our ARIMA/SARIMA models made predictions using just one variable. We
 
 ## 6. Conclusion:
 
+| <code>**Metrics**</code>| <code>**Value*</code>|
+| :-------:| :-----:|
+| <code>**Mean Sales (Next 24Months)**</code>| 1000515|
+| <code>**Lower Sales**</code>| 1000461|
+| <code>**Upper Sale**</code>| 1000569|
+
+
 **Finaly, let's try answer the main question:** whether sales for the oldest and most powerful producers of cigarettes in the country are increasing or declining or staying the same:
 
  * From our SARIMA Model we estimate that Cowboy Cigarettes sales will keep increasing by roughly 420 from 1000500 to 1000919 from January 1961 to 1962.
